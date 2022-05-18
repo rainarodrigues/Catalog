@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B21EC61128350F4F001D5D28 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21EC61028350F4F001D5D28 /* InitialView.swift */; };
+		B21EC61328351375001D5D28 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21EC61228351375001D5D28 /* ButtonView.swift */; };
+		B21EC61D283521EC001D5D28 /* CatalogProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21EC61C283521EC001D5D28 /* CatalogProductView.swift */; };
+		B21EC61F283522AF001D5D28 /* InsertPhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21EC61E283522AF001D5D28 /* InsertPhotoButton.swift */; };
+		B21EC62328352C98001D5D28 /* FakeDoorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21EC62228352C98001D5D28 /* FakeDoorView.swift */; };
 		B28B3047283433DD00642985 /* CatalogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28B3046283433DD00642985 /* CatalogApp.swift */; };
-		B28B3049283433DD00642985 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28B3048283433DD00642985 /* ContentView.swift */; };
 		B28B304B283433DE00642985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28B304A283433DE00642985 /* Assets.xcassets */; };
 		B28B304E283433DE00642985 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28B304D283433DE00642985 /* Preview Assets.xcassets */; };
 		B28B3058283433DE00642985 /* CatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28B3057283433DE00642985 /* CatalogTests.swift */; };
@@ -34,9 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B21EC61028350F4F001D5D28 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
+		B21EC61228351375001D5D28 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		B21EC61C283521EC001D5D28 /* CatalogProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogProductView.swift; sourceTree = "<group>"; };
+		B21EC61E283522AF001D5D28 /* InsertPhotoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertPhotoButton.swift; sourceTree = "<group>"; };
+		B21EC62228352C98001D5D28 /* FakeDoorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeDoorView.swift; sourceTree = "<group>"; };
 		B28B3043283433DD00642985 /* Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B28B3046283433DD00642985 /* CatalogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogApp.swift; sourceTree = "<group>"; };
-		B28B3048283433DD00642985 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B28B304A283433DE00642985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B28B304D283433DE00642985 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B28B3053283433DE00642985 /* CatalogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatalogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +79,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B21EC60F28350E20001D5D28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B21EC61028350F4F001D5D28 /* InitialView.swift */,
+				B21EC61E283522AF001D5D28 /* InsertPhotoButton.swift */,
+				B21EC61228351375001D5D28 /* ButtonView.swift */,
+				B21EC61C283521EC001D5D28 /* CatalogProductView.swift */,
+				B21EC62228352C98001D5D28 /* FakeDoorView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		B28B303A283433DD00642985 = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				B28B3046283433DD00642985 /* CatalogApp.swift */,
-				B28B3048283433DD00642985 /* ContentView.swift */,
+				B21EC60F28350E20001D5D28 /* View */,
 				B28B304A283433DE00642985 /* Assets.xcassets */,
 				B28B304C283433DE00642985 /* Preview Content */,
 			);
@@ -257,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B28B3049283433DD00642985 /* ContentView.swift in Sources */,
+				B21EC61128350F4F001D5D28 /* InitialView.swift in Sources */,
+				B21EC62328352C98001D5D28 /* FakeDoorView.swift in Sources */,
+				B21EC61328351375001D5D28 /* ButtonView.swift in Sources */,
+				B21EC61F283522AF001D5D28 /* InsertPhotoButton.swift in Sources */,
 				B28B3047283433DD00642985 /* CatalogApp.swift in Sources */,
+				B21EC61D283521EC001D5D28 /* CatalogProductView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
