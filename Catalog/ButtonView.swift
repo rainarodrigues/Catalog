@@ -9,16 +9,10 @@ import SwiftUI
 
 struct ButtonView: View {
     var body: some View {
-        Button(action: {
-                    // Code
-                }) {
-                    Text("Criar Catálogo")
-                }.padding(
-                    [.leading, .trailing],
-                    120
-                )
-                .buttonStyle(CustomButtonStyle())
-        
+        NavigationLink(destination: FakeDoorView()){
+            Text("Criar catálogo")
+            
+        }.padding([.leading, .trailing],120)
     }
 }
 
