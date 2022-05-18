@@ -83,9 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				B21EC61028350F4F001D5D28 /* InitialView.swift */,
+				B21EC61C283521EC001D5D28 /* CatalogProductView.swift */,
 				B21EC61E283522AF001D5D28 /* InsertPhotoButton.swift */,
 				B21EC61228351375001D5D28 /* ButtonView.swift */,
-				B21EC61C283521EC001D5D28 /* CatalogProductView.swift */,
 				B21EC62228352C98001D5D28 /* FakeDoorView.swift */,
 			);
 			name = View;

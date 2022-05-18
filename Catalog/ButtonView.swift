@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ButtonView: View {
     var body: some View {
-        NavigationLink(destination: FakeDoorView()){
+        NavigationLink(destination: CatalogProductView()){
             Text("Criar catálogo")
             
         }.padding([.leading, .trailing],120)
