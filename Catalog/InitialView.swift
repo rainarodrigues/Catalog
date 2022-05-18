@@ -15,20 +15,26 @@ struct InitialView: View {
     var body: some View {
         NavigationView {
             VStack {
-                InsertPhotoButton()
                 
-                VStack(alignment: .center, spacing: 50){
+                InsertPhotoButton()
+                VStack(alignment: .center, spacing: 20){
+                
                     Text("Criar um catálogo")
+                        .font(.title)
+                        .bold()
                         
                     Text("Compartilhe seus produtos ou serviços com seus clientes sem ocupar espaço no seu celular.")
-                    
-                    
+                        .font(.callout)
+                        .padding(.horizontal, 20)
+                        .frame(alignment: .center)
+
+                    Spacer()
                     ButtonView()
+                        .padding(.bottom, 20)
                 }
                 
                 Spacer()
             }
-            .border(.green)
             .navigationTitle(navigationTitle)
             .navigationBarTitleDisplayMode(selectedDisplayMode)
         }

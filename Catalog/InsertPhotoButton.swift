@@ -11,12 +11,14 @@ struct InsertPhotoButton: View {
     var body: some View {
         NavigationLink(destination: FakeDoorView()) {
             Text("Inserir Foto")
+                .font(.title2)
                 .buttonStyle(.bordered)
                 .controlSize(.small)
-                .foregroundColor(.gray)
-                .padding(100)
+                .foregroundColor(.white)
+                .frame(width: 390, height: 260, alignment: .center)
+//                .padding(100)
                 .cornerRadius(10)
-                .background { Color.black }
+                .background { Color.gray }
                 
         }
     }
