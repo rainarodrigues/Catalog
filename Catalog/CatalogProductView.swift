@@ -17,30 +17,22 @@ struct CatalogProductView: View {
     
     var body: some View {
         NavigationView {
-            VStack{
-                Image("compras")
-                    .resizable()
-                    .aspectRatio(1.5, contentMode: .fit)
-                
-                ScrollView(.vertical){
-                    LazyVGrid(columns: Array(repeating: .init(.flexible(), spacing: gridSpacing), count: columnCount), spacing: gridSpacing){
-                        Image("compras")
-                        Image("compras")
-                    }
-                }
+            VStack {
+                PhotoTabView()
+                InsertProduct()
+            }
+            .navigationBarTitleDisplayMode(selectedDisplayMode)
+            .navigationTitle(navigationTitle)
+            .navigationViewStyle(.automatic)
         }
-        .navigationBarTitleDisplayMode(selectedDisplayMode)
-        .navigationTitle(navigationTitle)
-        .navigationViewStyle(.automatic)
+        
+        
     }
     
-    
-}
-
-struct CatalogProductView_Previews: PreviewProvider {
-    static var previews: some View {
-        CatalogProductView()
+    struct CatalogProductView_Previews: PreviewProvider {
+        static var previews: some View {
+            CatalogProductView()
+        }
     }
-}
-
+    
 }

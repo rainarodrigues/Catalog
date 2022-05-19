@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2148BFC2836757300D69E6A /* InsertProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2148BFB2836757300D69E6A /* InsertProduct.swift */; };
+		B2148BFE2836770B00D69E6A /* PhotoTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2148BFD2836770B00D69E6A /* PhotoTabView.swift */; };
 		B21EC61128350F4F001D5D28 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21EC61028350F4F001D5D28 /* InitialView.swift */; };
 		B21EC61328351375001D5D28 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21EC61228351375001D5D28 /* ButtonView.swift */; };
 		B21EC61D283521EC001D5D28 /* CatalogProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21EC61C283521EC001D5D28 /* CatalogProductView.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B2148BFB2836757300D69E6A /* InsertProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertProduct.swift; sourceTree = "<group>"; };
+		B2148BFD2836770B00D69E6A /* PhotoTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTabView.swift; sourceTree = "<group>"; };
 		B21EC61028350F4F001D5D28 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
 		B21EC61228351375001D5D28 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		B21EC61C283521EC001D5D28 /* CatalogProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogProductView.swift; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 				B21EC61E283522AF001D5D28 /* InsertPhotoButton.swift */,
 				B21EC61228351375001D5D28 /* ButtonView.swift */,
 				B21EC62228352C98001D5D28 /* FakeDoorView.swift */,
+				B2148BFB2836757300D69E6A /* InsertProduct.swift */,
+				B2148BFD2836770B00D69E6A /* PhotoTabView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -278,11 +284,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B21EC61128350F4F001D5D28 /* InitialView.swift in Sources */,
+				B2148BFE2836770B00D69E6A /* PhotoTabView.swift in Sources */,
 				B21EC62328352C98001D5D28 /* FakeDoorView.swift in Sources */,
 				B21EC61328351375001D5D28 /* ButtonView.swift in Sources */,
 				B21EC61F283522AF001D5D28 /* InsertPhotoButton.swift in Sources */,
 				B28B3047283433DD00642985 /* CatalogApp.swift in Sources */,
 				B21EC61D283521EC001D5D28 /* CatalogProductView.swift in Sources */,
+				B2148BFC2836757300D69E6A /* InsertProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
