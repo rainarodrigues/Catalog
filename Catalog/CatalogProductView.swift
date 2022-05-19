@@ -19,7 +19,12 @@ struct CatalogProductView: View {
         NavigationView {
             VStack {
                 PhotoTabView()
+//                    .border(.red, width: 5)
                 InsertProduct()
+//                    .border(.green, width: 3)
+                Spacer()
+//                    .frame(width: 100)
+//                    .border(.blue, width: 3)
             }
             .navigationBarTitleDisplayMode(selectedDisplayMode)
             .navigationTitle(navigationTitle)

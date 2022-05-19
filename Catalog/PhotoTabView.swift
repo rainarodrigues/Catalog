@@ -26,7 +26,8 @@ struct PhotoTabView: View {
             .tabViewStyle(.page)
             .indexViewStyle(.page(backgroundDisplayMode: .automatic))
         }
-        .padding(.bottom,400)
+        .frame(height: 300)
+        // Pra ficar responsivo (e vc ter mais controle) pesquisa sobre Geometry Reader :D
     }
 }
 
