@@ -14,6 +14,7 @@
 		B21EC61D283521EC001D5D28 /* CatalogProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21EC61C283521EC001D5D28 /* CatalogProductView.swift */; };
 		B21EC61F283522AF001D5D28 /* InsertPhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21EC61E283522AF001D5D28 /* InsertPhotoButton.swift */; };
 		B21EC62328352C98001D5D28 /* FakeDoorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21EC62228352C98001D5D28 /* FakeDoorView.swift */; };
+		B24EF09E283BA2CF0082B566 /* InsertProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24EF09D283BA2CF0082B566 /* InsertProductView.swift */; };
 		B28B3047283433DD00642985 /* CatalogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28B3046283433DD00642985 /* CatalogApp.swift */; };
 		B28B304B283433DE00642985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28B304A283433DE00642985 /* Assets.xcassets */; };
 		B28B304E283433DE00642985 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28B304D283433DE00642985 /* Preview Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		B21EC61C283521EC001D5D28 /* CatalogProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogProductView.swift; sourceTree = "<group>"; };
 		B21EC61E283522AF001D5D28 /* InsertPhotoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertPhotoButton.swift; sourceTree = "<group>"; };
 		B21EC62228352C98001D5D28 /* FakeDoorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeDoorView.swift; sourceTree = "<group>"; };
+		B24EF09D283BA2CF0082B566 /* InsertProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertProductView.swift; sourceTree = "<group>"; };
 		B28B3043283433DD00642985 /* Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B28B3046283433DD00642985 /* CatalogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogApp.swift; sourceTree = "<group>"; };
 		B28B304A283433DE00642985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			children = (
 				B21EC61028350F4F001D5D28 /* InitialView.swift */,
 				B21EC61C283521EC001D5D28 /* CatalogProductView.swift */,
+				B24EF09D283BA2CF0082B566 /* InsertProductView.swift */,
 				B21EC61E283522AF001D5D28 /* InsertPhotoButton.swift */,
 				B21EC61228351375001D5D28 /* ButtonView.swift */,
 				B21EC62228352C98001D5D28 /* FakeDoorView.swift */,
@@ -284,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B21EC61128350F4F001D5D28 /* InitialView.swift in Sources */,
+				B24EF09E283BA2CF0082B566 /* InsertProductView.swift in Sources */,
 				B2148BFE2836770B00D69E6A /* PhotoTabView.swift in Sources */,
 				B21EC62328352C98001D5D28 /* FakeDoorView.swift in Sources */,
 				B21EC61328351375001D5D28 /* ButtonView.swift in Sources */,

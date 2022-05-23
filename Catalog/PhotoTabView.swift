@@ -11,15 +11,15 @@ struct PhotoTabView: View {
     var body: some View {
         VStack{
             TabView {
-                Image("compras")
+                Image("raina")
                     .resizable()
                     .aspectRatio(1.0, contentMode: .fill)
                 
-                Image("compras")
+                Image("raina")
                     .resizable()
                     .aspectRatio(1.0, contentMode: .fill)
                 
-                Image("compras")
+                Image("raina")
                     .resizable()
                     .aspectRatio(1.0, contentMode: .fill)
             }

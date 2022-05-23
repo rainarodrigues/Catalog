@@ -29,10 +29,17 @@ struct InitialView: View {
                         .frame(alignment: .center)
 
                     Spacer()
-                    ButtonView()
-                        .padding(.bottom, 20)
+                    
+                    NavigationLink(destination: CatalogProductView()){
+                        Text("Criar catálogo")
+                            .font(.title2)
+                            .padding(.vertical, 2)
+                            
+                        
+                    }
+//                    ButtonView()
+//                        .padding(.bottom, 20)
                 }
-                
                 Spacer()
             }
             .navigationTitle(navigationTitle)

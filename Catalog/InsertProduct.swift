@@ -11,7 +11,7 @@ struct InsertProduct: View {
     var body: some View {
         VStack{
             HStack{
-                NavigationLink(destination: FakeDoorView()){
+                NavigationLink(destination: InsertProductView()){
                         Image(systemName: "photo.fill.on.rectangle.fill")
                         .foregroundColor(.white)
                         .scaleEffect(2)
@@ -22,7 +22,7 @@ struct InsertProduct: View {
                 }
                 Spacer()
                 
-                NavigationLink(destination: FakeDoorView()){
+                NavigationLink(destination: InsertProductView()){
                         Text("Inserir produto")
                         .font(.title2)
                         .font(.system(size: 12))

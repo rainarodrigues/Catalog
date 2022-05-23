@@ -9,7 +9,7 @@ import SwiftUI
 
 struct InsertPhotoButton: View {
     var body: some View {
-        NavigationLink(destination: FakeDoorView()) {
+        NavigationLink(destination: InsertProductView()) {
             Text("Inserir Foto")
                 .font(.title2)
                 .buttonStyle(.bordered)
